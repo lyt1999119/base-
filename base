@@ -1,0 +1,26 @@
+x=796
+    print('x =',x)
+i=x%10
+j=x//10%10
+k=x//100
+    print('i=',i,'j=',j,'k=',k)
+y=100*i+10*j+k
+    print('y=',y)
+x=518
+    print('x=',x)
+s=str(x)
+t=s[2]+s[1]+s[0]
+t
+y=int(t)
+    print('y=',y)
+x=192837465
+    print('x=',x,type(x))
+s=list(str(x))
+    print('s=',s)
+s.reverse()
+    print('t=',s)
+t=''.join(s)
+    print('y=',t,type(t))
+y=int(t)
+    print('y=',y,type(y))
+
